@@ -11,7 +11,7 @@ app.set('views', '../client/views')
 // app.use(router, '/')
 
 app.get('/', (req, res) => {
-    res.send('It works!')
+    res.render('index.ejs')
 })
 
 
